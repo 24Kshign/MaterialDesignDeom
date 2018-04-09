@@ -20,7 +20,7 @@ import com.share.jack.materialdesigndeom.widget.NoScrollViewPager;
 import java.util.ArrayList;
 import java.util.List;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
@@ -32,19 +32,19 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
     public static final int TAB_TWO_REFRESH = 1;
     public static final int TAB_THREE_REFRESH = 2;
 
-    @Bind(R.id.am_srl_refresh_layout)
+    @BindView(R.id.am_srl_refresh_layout)
     SwipeRefreshLayout swipeRefreshLayout;
-    @Bind(R.id.lmd_nsp_viewpager)
+    @BindView(R.id.lmd_nsp_viewpager)
     NoScrollViewPager noScrollViewPager;
-    @Bind(R.id.lmd_app_bar_layout)
+    @BindView(R.id.lmd_app_bar_layout)
     AppBarLayout appBarLayout;
-    @Bind(R.id.lmd_toolbar)
+    @BindView(R.id.lmd_toolbar)
     Toolbar toolbar;
-    @Bind(R.id.lmd_tl_tablayout)
+    @BindView(R.id.lmd_tl_tablayout)
     TabLayout tabLayout;
-    @Bind(R.id.titlebar_back_textview)
+    @BindView(R.id.titlebar_back_textview)
     TextView tvBack;
-    @Bind(R.id.titlebar_title_textview)
+    @BindView(R.id.titlebar_title_textview)
     TextView tvTitle;
     TabLayout.Tab tabOne;
     TabLayout.Tab tabTwo;
